@@ -4,6 +4,8 @@ title = "刘伟的技术博客"
 theme = "PaperMod"
 googleAnalytics = "G-H8FS7R6TJN"
 
+mainSections = ["posts"]
+
 [params]
   author = "刘伟"
   description = "Linux / C / DPDK / 高性能网络架构"
