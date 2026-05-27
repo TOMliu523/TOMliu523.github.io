@@ -2,13 +2,41 @@ baseURL = "https://tomliu523.github.io/"
 languageCode = "zh-cn"
 title = "刘伟的技术博客"
 theme = "PaperMod"
+
+defaultTheme = "dark"
+
 googleAnalytics = "G-H8FS7R6TJN"
 
 mainSections = ["posts"]
 
-[params]
-  author = "刘伟"
-  description = "Linux / C / DPDK / 高性能网络架构"
+[pagination]
+pagerSize = 10
 
-  ShowReadingTime = true
-  ShowCodeCopyButtons = true
+[params]
+author = "刘伟"
+description = "Linux / C / DPDK / 高性能网络架构"
+
+ShowReadingTime = true
+ShowCodeCopyButtons = true
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+ShowToc = true
+TocOpen = true
+
+[params.profileMode]
+enabled = true
+title = "刘伟"
+subtitle = "Linux / C / DPDK / 高性能网络架构"
+
+[[params.profileMode.buttons]]
+name = "文章"
+url = "/posts"
+
+[[params.profileMode.buttons]]
+name = "GitHub"
+url = "https://github.com/TOMliu523"
+
+[markup]
+  [markup.highlight]
+    style = "dracula"
+    lineNos = true
