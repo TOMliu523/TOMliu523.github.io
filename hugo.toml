@@ -1,0 +1,11 @@
+baseURL = "https://tomliu523.github.io/"
+languageCode = "zh-cn"
+title = "刘伟的技术博客"
+theme = "PaperMod"
+
+[params]
+  author = "刘伟"
+  description = "Linux / C / DPDK / 高性能网络架构"
+
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
