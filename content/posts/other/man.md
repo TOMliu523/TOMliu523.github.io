@@ -1,6 +1,6 @@
 ---
 title: "man 手册查看约定（IOS 命令参考约定）"
-date: 2026-05-28
+date: 2026-05-27T00:00:00+08:00
 draft: false
 summary: "Linux man 手册参数格式说明，以及 IOS 命令参考约定解析。"
 ---
