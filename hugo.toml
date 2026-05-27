@@ -2,6 +2,7 @@ baseURL = "https://tomliu523.github.io/"
 languageCode = "zh-cn"
 title = "刘伟的技术博客"
 theme = "PaperMod"
+googleAnalytics = "G-H8FS7R6TJN"
 
 [params]
   author = "刘伟"
